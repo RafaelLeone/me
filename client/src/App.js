@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Update this line
 import './App.css';
 
 function App() {
@@ -11,13 +12,23 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Simple React App</h1>
-        <p>{message}</p>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <h1>Simple React App</h1>
+          <p>{message}</p>
+        </header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Add other routes here */}
+        </Routes>
+      </div>
+    </Router>
   );
+}
+
+function Home() {
+  return <h2>Home Page</h2>;
 }
 
 export default App;
