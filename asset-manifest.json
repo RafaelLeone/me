@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.f855e6bc.css",
-    "main.js": "/me/static/js/main.f5824972.js",
-    "static/js/453.419a5d54.chunk.js": "/me/static/js/453.419a5d54.chunk.js",
-    "index.html": "/me/index.html",
-    "main.f855e6bc.css.map": "/me/static/css/main.f855e6bc.css.map",
-    "main.f5824972.js.map": "/me/static/js/main.f5824972.js.map",
-    "453.419a5d54.chunk.js.map": "/me/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "http://RafaelLeone.github.io/me/static/css/main.f855e6bc.css",
+    "main.js": "http://RafaelLeone.github.io/me/static/js/main.6f187af3.js",
+    "static/js/453.419a5d54.chunk.js": "http://RafaelLeone.github.io/me/static/js/453.419a5d54.chunk.js",
+    "index.html": "http://RafaelLeone.github.io/me/index.html",
+    "main.f855e6bc.css.map": "http://RafaelLeone.github.io/me/static/css/main.f855e6bc.css.map",
+    "main.6f187af3.js.map": "http://RafaelLeone.github.io/me/static/js/main.6f187af3.js.map",
+    "453.419a5d54.chunk.js.map": "http://RafaelLeone.github.io/me/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.f5824972.js"
+    "static/js/main.6f187af3.js"
   ]
 }
